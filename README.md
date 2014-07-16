@@ -15,7 +15,7 @@ ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6.
 
 ### INSTALLATION:
 
-1. For the results in the paper we used the Stanford parser.  You can
+* For the results in the paper we used the Stanford parser.  You can
 download the version we used here:
 
 http://nlp.stanford.edu/software/stanford-parser-2012-07-09.tgz
@@ -26,7 +26,7 @@ We found it helpful to raise the memory limit.  You can set the memory
 limit inside "stanford-parser-2012-07-09/lexparser.sh" by changing
 "-mx1000m" (we set it to be "-mx4000m").
 
-2. To download images from Google Image Search, be sure to set your
+* To download images from Google Image Search, be sure to set your
 user IP address inside the following file before running the scripts:
 
 ./code/LIBS/google_image_search/userip.txt
@@ -35,13 +35,13 @@ See the following as a reference for the Google Image Search API:
 
 https://developers.google.com/console/help/#activatingapis
 
-3. Download the Bundler tarball:
+* Download the Bundler tarball:
 
 http://www.cs.cornell.edu/~snavely/bundler/distr/bundler-v0.4-source.tar.gz
 
 Uncompress the tarball and insert into "./code/LIBS/".
 
-4. In Matlab, run "compile" to compile all binaries.
+* In Matlab, run "compile" to compile all binaries.
 
 
 ### RUNNING THE CODE:
