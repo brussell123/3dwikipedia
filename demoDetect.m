@@ -12,7 +12,9 @@ addpath ./code;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Step 1: Set inputs.
+%%% Step 0: Adjust the following variables to point to your input text,
+% bundle structure, reference image.  Also provide the site name and
+% desired location of the cache folder.
 
 % Input text:
 vars.TEXT_FILE = './data/pantheon/Pantheon_001_text.txt';
@@ -31,6 +33,10 @@ vars.SITE_NAME = 'pantheon';
 
 % Set cache folder (where intermediate results will be written):
 CACHE_DIR = './cache/pantheon';
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Step 1: Write variables to cache folder:
 
 % Write variables to cache folder:
 vars.SCENE_VIEW = fullfile(CACHE_DIR,'sceneview.mat');
