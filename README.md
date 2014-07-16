@@ -10,7 +10,7 @@ labeling objects in 3D models given a reference text, such as Wikipedia.
 Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, and Luke Zettlemoyer.
 3D Wikipedia: Using Online Text to Automatically Label and Navigate Reconstructed Geometry.
 ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6.
-[PDF](http://grail.cs.washington.edu/projects/label3d/3D_Wikipedia_SIGGRAPH_Asia_2013.pdf) | [Project page](http://grail.cs.washington.edu/projects/label3d/)
+[PDF](http://grail.cs.washington.edu/projects/label3d/3D_Wikipedia_SIGGRAPH_Asia_2013.pdf) | [BibTeX](http://grail.cs.washington.edu/projects/label3d/paper.bib) | [Project page](http://grail.cs.washington.edu/projects/label3d/)
 
 
 ### INSTALLATION:
@@ -50,29 +50,33 @@ user IP address inside the following file before running the scripts:
 and pre-computed "bundle" struct for the Pantheon provided on the 3D
 Wikipedia project webpage.  Skip to step 2 below.  
 
-To run on your own data, start by building a 3D model of the site.
+   To run on your own data, start by building a 3D model of the site.
 You will need to download images to build the 3D model, e.g. by
 querying Flickr for the site name and downloading images through their
 API.  A couple of possibilities for building a sparse 3D point cloud
 is via VisualSFM (recommended):
 
-http://ccwu.me/vsfm/
+   http://ccwu.me/vsfm/
 
-or Bundler:
+   or Bundler:
 
-http://www.cs.cornell.edu/~snavely/bundler/
+   http://www.cs.cornell.edu/~snavely/bundler/
 
-We provide Matlab scripts to read the sparse point cloud.  To read the
+   We provide Matlab scripts to read the sparse point cloud.  To read the
 output from VisualSFM (e.g. "pantheon.nvm"), run the following in Matlab:
 
-addpath ./code;
-bundle = ReadNVMFile('pantheon.nvm');
+``` sh
+>> addpath ./code;
+>> bundle = ReadNVMFile('pantheon.nvm');
+```
 
-To read the output from Bundler (e.g. the output lives in a directory
+   To read the output from Bundler (e.g. the output lives in a directory
 "/path/to/pantheon"), run the following in Matlab:
 
-addpath ./code;
-bundle = readBundleFile('/path/to/pantheon');
+``` sh
+>> addpath ./code;
+>> bundle = readBundleFile('/path/to/pantheon');
+```
 
 2. Given the text, reference image, and "bundle" struct, adjust the
 global variables at the top of the "demoDetect.m" script and run in
