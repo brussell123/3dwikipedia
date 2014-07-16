@@ -5,7 +5,7 @@ Here you will find the Matlab and Python source code for automatically
 labeling objects in 3D models given a reference text, such as Wikipedia.
 
 
-## CITATION:
+### CITATION:
 
 Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, and Luke Zettlemoyer
 3D Wikipedia: Using Online Text to Automatically Label and Navigate Reconstructed Geometry
@@ -16,7 +16,7 @@ You can find more information about 3D Wikipedia on the project webpage:
 http://grail.cs.washington.edu/projects/label3d/
 
 
-INSTALLATION:
+### INSTALLATION:
 
 1. For the results in the paper we used the Stanford parser.  You can
 download the version we used here:
@@ -47,7 +47,7 @@ Uncompress the tarball and insert into "./code/LIBS/".
 4. In Matlab, run "compile" to compile all binaries.
 
 
-RUNNING THE CODE:
+### RUNNING THE CODE:
 
 1. You can run the code demo by downloading the text, reference image,
 and pre-computed "bundle" struct for the Pantheon provided on the 3D
@@ -81,5 +81,7 @@ bundle = readBundleFile('/path/to/pantheon');
 global variables at the top of the "demoDetect.m" script and run in
 Matlab.  
 
+
+---- 
 
 Copyright (C) 2014  Intel, University of Washington, Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, Luke Zettlemoyer
