@@ -65,18 +65,18 @@ is via VisualSFM (recommended):
    We provide Matlab scripts to read the sparse point cloud.  To read the
 output from VisualSFM (e.g. "pantheon.nvm"), run the following in Matlab:
 
-``` sh
->> addpath ./code;
->> bundle = ReadNVMFile('pantheon.nvm');
-```
+   ``` sh
+   >> addpath ./code;
+   >> bundle = ReadNVMFile('pantheon.nvm');
+   ```
 
    To read the output from Bundler (e.g. the output lives in a directory
 "/path/to/pantheon"), run the following in Matlab:
 
-``` sh
->> addpath ./code;
->> bundle = readBundleFile('/path/to/pantheon');
-```
+   ``` sh
+   >> addpath ./code;
+   >> bundle = readBundleFile('/path/to/pantheon');
+   ```
 
 2. Given the text, reference image, and "bundle" struct, adjust the
 global variables at the top of the "demoDetect.m" script and run in
