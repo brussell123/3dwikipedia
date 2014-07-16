@@ -29,17 +29,17 @@ limit inside "stanford-parser-2012-07-09/lexparser.sh" by changing
 2. To download images from Google Image Search, be sure to set your
 user IP address inside the following file before running the scripts:
 
-./code/LIBS/google_image_search/userip.txt
+   ./code/LIBS/google_image_search/userip.txt
 
-See the following as a reference for the Google Image Search API:
+   See the following as a reference for the Google Image Search API:
 
-https://developers.google.com/console/help/#activatingapis
+   https://developers.google.com/console/help/#activatingapis
 
 3. Download the Bundler tarball:
 
-http://www.cs.cornell.edu/~snavely/bundler/distr/bundler-v0.4-source.tar.gz
+   http://www.cs.cornell.edu/~snavely/bundler/distr/bundler-v0.4-source.tar.gz
 
-Uncompress the tarball and insert into "./code/LIBS/".
+   Uncompress the tarball and insert into "./code/LIBS/".
 
 4. In Matlab, run "compile" to compile all binaries.
 
