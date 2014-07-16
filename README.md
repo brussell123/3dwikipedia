@@ -87,4 +87,4 @@ global variables at the top of the "demoDetect.m" script and run in
 Matlab.  
 
 
-Copyright (C) 2014  Intel, University of Washington. Bryan C, Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, Luke Zettlemoyer
+Copyright (C) 2014  Intel, University of Washington, Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, Luke Zettlemoyer
