@@ -18,11 +18,11 @@ ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6.
 1. For the results in the paper we used the Stanford parser.  You can
 download the version we used here:
 
-'''http://nlp.stanford.edu/software/stanford-parser-2012-07-09.tgz
+   http://nlp.stanford.edu/software/stanford-parser-2012-07-09.tgz
 
-'''Uncompress the tarball and insert into "./code/LIBS/".
+   Uncompress the tarball and insert into "./code/LIBS/".
 
-'''We found it helpful to raise the memory limit.  You can set the memory
+   We found it helpful to raise the memory limit.  You can set the memory
 limit inside "stanford-parser-2012-07-09/lexparser.sh" by changing
 "-mx1000m" (we set it to be "-mx4000m").
 
