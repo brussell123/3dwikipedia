@@ -1,4 +1,4 @@
-3D Wikipedia source code
+[3D Wikipedia](http://grail.cs.washington.edu/projects/label3d/) source code
 ===========
 
 Here you will find the Matlab and Python source code for automatically
@@ -7,13 +7,10 @@ labeling objects in 3D models given a reference text, such as Wikipedia.
 
 ### CITATION:
 
-Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, and Luke Zettlemoyer
-3D Wikipedia: Using Online Text to Automatically Label and Navigate Reconstructed Geometry
-ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6
-
-You can find more information about 3D Wikipedia on the project webpage:
-
-http://grail.cs.washington.edu/projects/label3d/
+Bryan C. Russell, Ricardo Martin-Brualla, Daniel J. Butler, Steven M. Seitz, and Luke Zettlemoyer.
+3D Wikipedia: Using Online Text to Automatically Label and Navigate Reconstructed Geometry.
+ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6.
+[PDF](http://grail.cs.washington.edu/projects/label3d/3D_Wikipedia_SIGGRAPH_Asia_2013.pdf) | [Project page](http://grail.cs.washington.edu/projects/label3d/)
 
 
 ### INSTALLATION:
