@@ -90,7 +90,7 @@ output from VisualSFM (e.g. "pantheon.nvm"), run the following in Matlab:
    ```
 
 2. Given the text, reference image, and "bundle" struct, adjust the
-global variables at the top of the "demoDetect.m" script and run in
+global variables at the top of the [demoDetect.m](https://github.com/brussell123/3dwikipedia/blob/master/demoDetect.m) script and run in
 Matlab.  
 
 
