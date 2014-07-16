@@ -13,6 +13,17 @@ ACM Transactions on Graphics (SIGGRAPH Asia 2013), Vol. 32, No. 6.
 [PDF](http://grail.cs.washington.edu/projects/label3d/3D_Wikipedia_SIGGRAPH_Asia_2013.pdf) | [BibTeX](http://grail.cs.washington.edu/projects/label3d/paper.bib) | [Project page](http://grail.cs.washington.edu/projects/label3d/)
 
 
+### DOWNLOAD:
+
+You can download a [zip file of the source code](https://github.com/brussell123/3dwikipedia/archive/master.zip) directly.  
+
+Alternatively, you can clone it from GitHub as follows:
+
+``` sh
+$ git clone https://github.com/brussell123/3dwikipedia.git
+```
+
+
 ### INSTALLATION:
 
 1. For the results in the paper we used the Stanford parser.  You can
