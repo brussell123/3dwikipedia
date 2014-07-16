@@ -95,5 +95,5 @@ DET = doit(CACHE_DIR,'detect_objects',model);
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Step 8: Visualize object detections:
+% Step 9: Visualize object detections:
 VisualizeDetections(DET,vars.SCENE_VIEW);
