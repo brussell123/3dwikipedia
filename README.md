@@ -47,8 +47,8 @@ user IP address inside the following file before running the scripts:
 ### RUNNING THE CODE:
 
 1. You can run the code demo by downloading the text, reference image,
-and pre-computed "bundle" struct for the Pantheon provided on the 3D
-Wikipedia project webpage.  Skip to step 2 below.  
+and pre-computed "bundle" struct for the Pantheon provided on the [3D
+Wikipedia project webpage](http://grail.cs.washington.edu/projects/label3d/).  Skip to step 2 below.  
 
    To run on your own data, start by building a 3D model of the site.
 You will need to download images to build the 3D model, e.g. by
