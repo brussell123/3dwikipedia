@@ -1,1 +1,11 @@
 *~
+*.o
+*.a
+*.mexmaci
+OBJ.Darwin64
+bin.Darwin64
+.DS_Store
+code/LIBS/google_image_search/googim.pyc
+cache
+data
+
