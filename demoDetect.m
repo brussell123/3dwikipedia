@@ -25,15 +25,15 @@ refviews.images = {'./data/pantheon/pantheon_001.jpg'};
 refviews.projections = {'spherical'};
 refviews.bbgt = {[1 5993 200 930]}; % Specify valid area on reference image 
                                     % [width_min width_max height_min height_max]
-vars.SCENE_VIEW = './data/pantheon/pantheon_sceneview.mat';
 
 % Site name (used in query to Google Image Search during query expansion step):
 vars.SITE_NAME = 'pantheon';
 
-% Set cache folder:
+% Set cache folder (where intermediate results will be written):
 CACHE_DIR = './cache/pantheon';
 
 % Write variables to cache folder:
+vars.SCENE_VIEW = fullfile(CACHE_DIR,'sceneview.mat');
 WriteVars(vars,CACHE_DIR);
 
 
