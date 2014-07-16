@@ -58,7 +58,7 @@ user IP address inside the following file before running the scripts:
 ### RUNNING THE CODE:
 
 1. You can run the code demo for the Pantheon example by downloading
-its [text, reference panorama, and pre-computed "bundle" struct](http://grail.cs.washington.edu/projects/label3d/pantheon.tar.gz).  Uncompress the tarball and insert into the "./data" directory. For this example you may skip to step 2 below.  
+its [text, reference panorama, and pre-computed "bundle" struct](http://grail.cs.washington.edu/projects/label3d/tarballs/pantheon.tar.gz).  Uncompress the tarball and insert into the "./data" directory. For this example you may skip to step 2 below.  
 
    To run on your own data, start by building a 3D model of the site.
 You will need to download images to build the 3D model, e.g. by
